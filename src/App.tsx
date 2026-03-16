@@ -10,7 +10,7 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState<number>(-1);
   const [selectedVoice, setSelectedVoice] =
     useState<SpeechSynthesisVoice | null>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [, setIsPlaying] = useState(false);
   const [rate, setRate] = useState(1);
   const [fileName, setFileName] = useState("");
 
